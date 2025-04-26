@@ -33,10 +33,7 @@ def buscar():
                 resultados.append({
                     "nome": nome_arquivo,
                     "trecho": trecho,
-                    "link_pdf": f"https://buscabg-backend.onrender.com/pdfs/{nome_arquivo}"
+                    "link_pdf": f"https://{request.host}/pdfs/{nome_arquivo}"
                 })
 
     return jsonify(resultados)
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000)
