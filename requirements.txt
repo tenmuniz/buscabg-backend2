@@ -1,4 +1,2 @@
-requirements.txt
-txt
-Copiar
-Editar
+flask==3.0.1
+PyMuPDF==1.22.0
