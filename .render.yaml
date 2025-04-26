@@ -3,5 +3,5 @@ services:
     name: buscabg-backend2
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: "chmod +x start.sh"
     startCommand: "./start.sh"
